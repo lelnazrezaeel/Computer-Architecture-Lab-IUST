@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/iust stuff/4002/CALab/2/MUX/MUX_GATE_isim_beh.exe" -prj "D:/iust stuff/4002/CALab/2/MUX/MUX_GATE_beh.prj" "work.MUX_GATE" 

@@ -1,0 +1,28 @@
+Command line:
+   MUX_GATE_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  8743
+
+Tue Mar 08 20:23:36 2022
+
+
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 5154.83 Meg
+
+ Total Signals          : 43
+ Total Nets             : 18
+ Total Signal Drivers   : 12
+ Total Blocks           : 9
+ Total Primitive Blocks : 8
+ Total Processes        : 12
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 378
+
+ Total Simulation Time: 49.2188 sec
+
+ Current Memory Usage: 4682.97 Meg
+
+Tue Mar 08 23:03:25 2022
+

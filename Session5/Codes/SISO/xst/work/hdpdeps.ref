@@ -1,0 +1,7 @@
+V3 3
+FL "D:/iust stuff/4002/CALab/5/SISO/SISO.vhd" 2022/04/20.01:16:33 P.20131013
+EN work/shiftregister 1650403610 FL "D:/iust stuff/4002/CALab/5/SISO/SISO.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/shiftregister/Behavioral 1650403611 \
+      FL "D:/iust stuff/4002/CALab/5/SISO/SISO.vhd" EN work/shiftregister 1650403610

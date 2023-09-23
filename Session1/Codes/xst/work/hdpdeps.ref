@@ -1,0 +1,40 @@
+V3 22
+FL "E:/University/Term6/CA Lab/Lab01/Lab011/AND_GATE.vhd" 2022/03/02.08:27:11 P.20131013
+EN work/AND_GATE 1646200808 \
+      FL "E:/University/Term6/CA Lab/Lab01/Lab011/AND_GATE.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/AND_GATE/Behavioral 1646200809 \
+      FL "E:/University/Term6/CA Lab/Lab01/Lab011/AND_GATE.vhd" EN work/AND_GATE 1646200808
+FL "E:/University/Term6/CA Lab/Lab01/Lab011/FA_GATE.vhd" 2022/03/02.09:10:34 P.20131013
+EN work/FA_GATE 1646200814 \
+      FL "E:/University/Term6/CA Lab/Lab01/Lab011/FA_GATE.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/FA_GATE/Behavioral 1646200815 \
+      FL "E:/University/Term6/CA Lab/Lab01/Lab011/FA_GATE.vhd" EN work/FA_GATE 1646200814 \
+      CP HA_GATE CP Or_Gate
+FL "E:/University/Term6/CA Lab/Lab01/Lab011/HA2_GATE.vhd" 2022/03/02.09:04:24 P.20131013
+EN work/HA2_GATE 1646199270 \
+      FL "E:/University/Term6/CA Lab/Lab01/Lab011/HA2_GATE.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/HA2_GATE/Behavioral 1646199271 \
+      FL "E:/University/Term6/CA Lab/Lab01/Lab011/HA2_GATE.vhd" EN work/HA2_GATE 1646199270 \
+      CP XOR_GATE CP AND_GATE
+FL "E:/University/Term6/CA Lab/Lab01/Lab011/HA_GATE.vhd" 2022/03/02.08:58:54 P.20131013
+EN work/HA_GATE 1646200810 \
+      FL "E:/University/Term6/CA Lab/Lab01/Lab011/HA_GATE.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/HA_GATE/Behavioral 1646200811 \
+      FL "E:/University/Term6/CA Lab/Lab01/Lab011/HA_GATE.vhd" EN work/HA_GATE 1646200810 \
+      CP XOR_GATE CP AND_GATE
+FL "E:/University/Term6/CA Lab/Lab01/Lab011/OR_GATE.vhd" 2022/03/02.09:34:59 P.20131013
+EN work/OR_GATE 1646201102 \
+      FL "E:/University/Term6/CA Lab/Lab01/Lab011/OR_GATE.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/OR_GATE/Behavioral 1646201103 \
+      FL "E:/University/Term6/CA Lab/Lab01/Lab011/OR_GATE.vhd" EN work/OR_GATE 1646201102
+FL "E:/University/Term6/CA Lab/Lab01/Lab011/XOR_GATE.vhd" 2022/03/02.08:31:10 P.20131013
+EN work/XOR_GATE 1646200806 \
+      FL "E:/University/Term6/CA Lab/Lab01/Lab011/XOR_GATE.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/XOR_GATE/Behavioral 1646200807 \
+      FL "E:/University/Term6/CA Lab/Lab01/Lab011/XOR_GATE.vhd" EN work/XOR_GATE 1646200806

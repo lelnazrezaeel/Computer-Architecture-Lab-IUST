@@ -1,0 +1,21 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/iust stuff/4002/CALab/4/counter_async_decreasing/counter_decreasing_test_isim_beh.exe -prj D:/iust stuff/4002/CALab/4/counter_async_decreasing/counter_decreasing_test_beh.prj work.counter_decreasing_test 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/iust stuff/4002/CALab/4/counter_async_decreasing/T_FF.vhd" into library work
+Parsing VHDL file "D:/iust stuff/4002/CALab/4/counter_async_decreasing/counter_asyc_decreasing.vhd" into library work
+Parsing VHDL file "D:/iust stuff/4002/CALab/4/counter_async_decreasing/counter_decreasing_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity T_FF [t_ff_default]
+Compiling architecture behavioral of entity counter_async_decreasing [counter_async_decreasing_default]
+Compiling architecture behavior of entity counter_decreasing_test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable D:/iust stuff/4002/CALab/4/counter_async_decreasing/counter_decreasing_test_isim_beh.exe
+Fuse Memory Usage: 30624 KB
+Fuse CPU Usage: 702 ms

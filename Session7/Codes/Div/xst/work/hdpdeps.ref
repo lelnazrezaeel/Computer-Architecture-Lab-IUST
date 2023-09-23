@@ -1,0 +1,6 @@
+V3 3
+FL "D:/iust stuff/4002/CALab/8_9/Div/div_8_4.vhd" 2022/05/11.01:12:26 P.20131013
+EN work/div_8_4 1652215523 FL "D:/iust stuff/4002/CALab/8_9/Div/div_8_4.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/div_8_4/behavior 1652215524 \
+      FL "D:/iust stuff/4002/CALab/8_9/Div/div_8_4.vhd" EN work/div_8_4 1652215523

@@ -1,0 +1,28 @@
+Command line:
+   Seven_Seg_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  8674
+
+Tue Mar 08 23:20:37 2022
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5154.8 Meg
+
+ Total Signals          : 3
+ Total Nets             : 18
+ Total Signal Drivers   : 2
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 378
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 4840.22 Meg
+
+Tue Mar 08 23:25:55 2022
+

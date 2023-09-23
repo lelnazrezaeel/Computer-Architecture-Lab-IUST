@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/iust stuff/4002/CALab/2/decoder_2_4/decoder_2_4_isim_beh.exe" -prj "D:/iust stuff/4002/CALab/2/decoder_2_4/decoder_2_4_beh.prj" "work.decoder_2_4" 

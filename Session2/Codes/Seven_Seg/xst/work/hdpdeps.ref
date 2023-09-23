@@ -1,0 +1,8 @@
+V3 4
+FL C:/Users/Arshia/Desktop/AZ/Seven_Seg/Seven_Seg.vhd 2022/03/08.22:00:20 P.20131013
+FL "D:/iust stuff/4002/CALab/2/Seven_Seg/Seven_Seg.vhd" 2022/03/08.22:00:20 P.20131013
+EN work/Seven_Seg 1646768961 \
+      FL "D:/iust stuff/4002/CALab/2/Seven_Seg/Seven_Seg.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Seven_Seg/Behavioral 1646768962 \
+      FL "D:/iust stuff/4002/CALab/2/Seven_Seg/Seven_Seg.vhd" EN work/Seven_Seg 1646768961

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Arshia/Downloads/Telegram Desktop/RAM/tb_Generic_RAM_isim_beh.exe" -prj "C:/Users/Arshia/Downloads/Telegram Desktop/RAM/tb_Generic_RAM_beh.prj" "work.tb_Generic_RAM" 

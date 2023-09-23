@@ -1,0 +1,12 @@
+V3 6
+FL C:/Users/Arshia/Desktop/AZ/Encoder_4_2/Encoder_4_2.vhd 2022/03/08.22:10:01 P.20131013
+AR work/Encoder_4To2/Behavioral 1646764772 \
+      FL C:/Users/Arshia/Desktop/AZ/Encoder_4_2/Encoder_4_2.vhd \
+      EN work/Encoder_4To2 1646764771
+FL "D:/iust stuff/4002/CALab/2/Encoder_4_2/Encoder_4_2.vhd" 2022/03/08.22:10:01 P.20131013
+EN work/Encoder_4_2 1646768603 \
+      FL "D:/iust stuff/4002/CALab/2/Encoder_4_2/Encoder_4_2.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Encoder_4_2/Behavioral 1646768604 \
+      FL "D:/iust stuff/4002/CALab/2/Encoder_4_2/Encoder_4_2.vhd" \
+      EN work/Encoder_4_2 1646768603

@@ -1,0 +1,22 @@
+V3 15
+FL C:/Users/Arshia/Desktop/AZ/MUX/And_Gate.vhd 2022/03/02.09:44:10 P.20131013
+EN work/And_Gate 1646748313 FL C:/Users/Arshia/Desktop/AZ/MUX/And_Gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/And_Gate/Behavioral 1646748314 \
+      FL C:/Users/Arshia/Desktop/AZ/MUX/And_Gate.vhd EN work/And_Gate 1646748313
+FL C:/Users/Arshia/Desktop/AZ/MUX/MUX_GATE.vhd 2022/03/08.17:35:05 P.20131013
+EN work/MUX_GATE 1646748317 FL C:/Users/Arshia/Desktop/AZ/MUX/MUX_GATE.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/MUX_GATE/Behavioral 1646748318 \
+      FL C:/Users/Arshia/Desktop/AZ/MUX/MUX_GATE.vhd EN work/MUX_GATE 1646748317 \
+      CP Not_Gate CP And_Gate CP Or_Gate
+FL C:/Users/Arshia/Desktop/AZ/MUX/Not_Gate.vhd 2022/03/02.09:39:11 P.20131013
+EN work/Not_Gate 1646748311 FL C:/Users/Arshia/Desktop/AZ/MUX/Not_Gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Not_Gate/Behavioral 1646748312 \
+      FL C:/Users/Arshia/Desktop/AZ/MUX/Not_Gate.vhd EN work/Not_Gate 1646748311
+FL C:/Users/Arshia/Desktop/AZ/MUX/Or_Gate.vhd 2022/03/02.09:50:06 P.20131013
+EN work/Or_Gate 1646748315 FL C:/Users/Arshia/Desktop/AZ/MUX/Or_Gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Or_Gate/Behavioral 1646748316 \
+      FL C:/Users/Arshia/Desktop/AZ/MUX/Or_Gate.vhd EN work/Or_Gate 1646748315

@@ -1,0 +1,7 @@
+V3 4
+FL C:/Users/Arshia/Desktop/AZ/SIPO/SIPO.vhd 2022/04/20.01:28:26 P.20131013
+AR work/sipo/arch -1 FL C:/Users/Arshia/Desktop/AZ/SIPO/SIPO.vhd EN work/sipo 1650401910
+EN work/sipo 1650401910 \
+      FL C:/Users/Arshia/Desktop/AZ/SIPO/SIPO.vhd PB ieee/std_logic_1164 1381692176
+AR work/sipo/beh 1650401911 \
+      FL C:/Users/Arshia/Desktop/AZ/SIPO/SIPO.vhd EN work/sipo 1650401910

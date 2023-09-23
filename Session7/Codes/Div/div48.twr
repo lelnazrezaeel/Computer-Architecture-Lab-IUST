@@ -1,0 +1,175 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml div48.twx div48.ncd -o div48.twr div48.pcf
+
+Design file:              div48.ncd
+Physical constraint file: div48.pcf
+Device,package,speed:     xc3s400,pq208,-4 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+num1<0>        |Q<0>           |   11.140|
+num1<0>        |R<0>           |   12.414|
+num1<0>        |R<1>           |   11.998|
+num1<0>        |R<2>           |   11.838|
+num1<0>        |R<3>           |   11.284|
+num1<1>        |Q<0>           |   16.998|
+num1<1>        |Q<1>           |   11.182|
+num1<1>        |R<0>           |   18.272|
+num1<1>        |R<1>           |   17.856|
+num1<1>        |R<2>           |   17.696|
+num1<1>        |R<3>           |   17.142|
+num1<2>        |Q<0>           |   19.873|
+num1<2>        |Q<1>           |   14.057|
+num1<2>        |Q<2>           |   10.163|
+num1<2>        |R<0>           |   21.147|
+num1<2>        |R<1>           |   20.731|
+num1<2>        |R<2>           |   20.571|
+num1<2>        |R<3>           |   20.017|
+num1<3>        |Q<0>           |   23.693|
+num1<3>        |Q<1>           |   17.877|
+num1<3>        |Q<2>           |   13.983|
+num1<3>        |Q<3>           |   10.360|
+num1<3>        |R<0>           |   24.967|
+num1<3>        |R<1>           |   24.551|
+num1<3>        |R<2>           |   24.391|
+num1<3>        |R<3>           |   23.837|
+num1<4>        |Q<0>           |   29.054|
+num1<4>        |Q<1>           |   23.238|
+num1<4>        |Q<2>           |   19.344|
+num1<4>        |Q<3>           |   15.721|
+num1<4>        |Q<4>           |   11.226|
+num1<4>        |R<0>           |   30.328|
+num1<4>        |R<1>           |   29.912|
+num1<4>        |R<2>           |   29.752|
+num1<4>        |R<3>           |   29.198|
+num1<5>        |Q<0>           |   32.030|
+num1<5>        |Q<1>           |   26.214|
+num1<5>        |Q<2>           |   22.320|
+num1<5>        |Q<3>           |   18.697|
+num1<5>        |Q<4>           |   14.202|
+num1<5>        |Q<5>           |    9.645|
+num1<5>        |R<0>           |   33.304|
+num1<5>        |R<1>           |   32.888|
+num1<5>        |R<2>           |   32.728|
+num1<5>        |R<3>           |   32.174|
+num1<6>        |Q<0>           |   36.148|
+num1<6>        |Q<1>           |   30.332|
+num1<6>        |Q<2>           |   26.438|
+num1<6>        |Q<3>           |   22.815|
+num1<6>        |Q<4>           |   18.320|
+num1<6>        |Q<5>           |   13.763|
+num1<6>        |Q<6>           |    9.432|
+num1<6>        |R<0>           |   37.422|
+num1<6>        |R<1>           |   37.006|
+num1<6>        |R<2>           |   36.846|
+num1<6>        |R<3>           |   36.292|
+num1<7>        |Q<0>           |   34.824|
+num1<7>        |Q<1>           |   29.008|
+num1<7>        |Q<2>           |   25.114|
+num1<7>        |Q<3>           |   21.491|
+num1<7>        |Q<4>           |   16.996|
+num1<7>        |Q<5>           |   12.439|
+num1<7>        |Q<6>           |    8.108|
+num1<7>        |Q<7>           |   10.220|
+num1<7>        |R<0>           |   36.098|
+num1<7>        |R<1>           |   35.682|
+num1<7>        |R<2>           |   35.522|
+num1<7>        |R<3>           |   34.968|
+num2<0>        |Q<0>           |   37.989|
+num2<0>        |Q<1>           |   32.173|
+num2<0>        |Q<2>           |   28.279|
+num2<0>        |Q<3>           |   24.656|
+num2<0>        |Q<4>           |   20.161|
+num2<0>        |Q<5>           |   15.604|
+num2<0>        |Q<6>           |   11.273|
+num2<0>        |Q<7>           |   10.110|
+num2<0>        |R<0>           |   39.263|
+num2<0>        |R<1>           |   38.847|
+num2<0>        |R<2>           |   38.687|
+num2<0>        |R<3>           |   38.133|
+num2<1>        |Q<0>           |   36.758|
+num2<1>        |Q<1>           |   30.942|
+num2<1>        |Q<2>           |   27.048|
+num2<1>        |Q<3>           |   23.425|
+num2<1>        |Q<4>           |   18.930|
+num2<1>        |Q<5>           |   14.373|
+num2<1>        |Q<6>           |   10.042|
+num2<1>        |Q<7>           |    9.565|
+num2<1>        |R<0>           |   38.032|
+num2<1>        |R<1>           |   37.616|
+num2<1>        |R<2>           |   37.456|
+num2<1>        |R<3>           |   36.902|
+num2<2>        |Q<0>           |   36.368|
+num2<2>        |Q<1>           |   30.552|
+num2<2>        |Q<2>           |   26.658|
+num2<2>        |Q<3>           |   23.035|
+num2<2>        |Q<4>           |   18.540|
+num2<2>        |Q<5>           |   13.983|
+num2<2>        |Q<6>           |    9.652|
+num2<2>        |Q<7>           |   10.231|
+num2<2>        |R<0>           |   37.642|
+num2<2>        |R<1>           |   37.226|
+num2<2>        |R<2>           |   37.066|
+num2<2>        |R<3>           |   36.512|
+num2<3>        |Q<0>           |   37.402|
+num2<3>        |Q<1>           |   31.586|
+num2<3>        |Q<2>           |   27.692|
+num2<3>        |Q<3>           |   24.069|
+num2<3>        |Q<4>           |   19.574|
+num2<3>        |Q<5>           |   15.017|
+num2<3>        |Q<6>           |   10.686|
+num2<3>        |Q<7>           |   11.104|
+num2<3>        |R<0>           |   38.676|
+num2<3>        |R<1>           |   38.260|
+num2<3>        |R<2>           |   38.100|
+num2<3>        |R<3>           |   37.546|
+---------------+---------------+---------+
+
+
+Analysis completed Wed May 11 00:19:11 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4478 MB
+
+
+

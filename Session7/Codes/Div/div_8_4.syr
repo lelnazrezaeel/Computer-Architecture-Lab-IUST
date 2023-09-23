@@ -1,0 +1,338 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: div_8_4.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "div_8_4.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "div_8_4"
+Output Format                      : NGC
+Target Device                      : xc3s400-4-pq208
+
+---- Source Options
+Top Module Name                    : div_8_4
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/iust stuff/4002/CALab/8_9/Div/div_8_4.vhd" in Library work.
+Architecture behavior of Entity div_8_4 is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <div_8_4> in library <work> (architecture <behavior>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <div_8_4> in library <work> (Architecture <behavior>).
+Entity <div_8_4> analyzed. Unit <div_8_4> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <div_8_4>.
+    Related source file is "D:/iust stuff/4002/CALab/8_9/Div/div_8_4.vhd".
+    Found 5-bit subtractor for signal <n1$addsub0000> created at line 29.
+    Found 5-bit subtractor for signal <n1$addsub0001> created at line 29.
+    Found 5-bit subtractor for signal <n1$addsub0002> created at line 29.
+    Found 5-bit subtractor for signal <n1$addsub0003> created at line 29.
+    Found 5-bit comparator greatequal for signal <n1$cmp_ge0000> created at line 28.
+    Found 5-bit comparator greatequal for signal <n1$cmp_ge0001> created at line 28.
+    Found 5-bit comparator greatequal for signal <n1$cmp_ge0002> created at line 28.
+    Found 5-bit comparator greatequal for signal <n1$cmp_ge0003> created at line 28.
+    Found 5-bit subtractor for signal <n10$addsub0000> created at line 29.
+    Found 5-bit subtractor for signal <n10$addsub0001> created at line 29.
+    Found 5-bit subtractor for signal <n10$addsub0002> created at line 29.
+    Found 5-bit subtractor for signal <n10$addsub0003> created at line 29.
+    Found 5-bit comparator greatequal for signal <n10$cmp_ge0000> created at line 28.
+    Found 5-bit comparator greatequal for signal <n10$cmp_ge0001> created at line 28.
+    Found 5-bit comparator greatequal for signal <n10$cmp_ge0002> created at line 28.
+    Found 5-bit comparator greatequal for signal <n10$cmp_ge0003> created at line 28.
+    Summary:
+	inferred   8 Adder/Subtractor(s).
+	inferred   8 Comparator(s).
+Unit <div_8_4> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 8
+ 5-bit subtractor                                      : 8
+# Comparators                                          : 8
+ 5-bit comparator greatequal                           : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 8
+ 4-bit subtractor                                      : 8
+# Comparators                                          : 8
+ 5-bit comparator greatequal                           : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <div_8_4> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block div_8_4, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : div_8_4.ngr
+Top Level Output File Name         : div_8_4
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 24
+
+Cell Usage :
+# BELS                             : 73
+#      GND                         : 1
+#      LUT3                        : 21
+#      LUT4                        : 43
+#      MUXF5                       : 8
+# IO Buffers                       : 24
+#      IBUF                        : 12
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-4 
+
+ Number of Slices:                       36  out of   3584     1%  
+ Number of 4 input LUTs:                 64  out of   7168     0%  
+ Number of IOs:                          24
+ Number of bonded IOBs:                  24  out of    141    17%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 53.665ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1526938 / 12
+-------------------------------------------------------------------------
+Delay:               53.665ns (Levels of Logic = 29)
+  Source:            b<0> (PAD)
+  Destination:       r<0> (PAD)
+
+  Data Path: b<0> to r<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            30   0.821   1.910  b_0_IBUF (b_0_IBUF)
+     LUT3:I2->O            2   0.551   0.945  q<6>1_SW2 (N96)
+     LUT4:I2->O            3   0.551   1.246  q<6>1 (q_6_OBUF)
+     LUT3:I0->O            4   0.551   1.256  n1_mux0001<0>1 (n1_mux0001<0>)
+     LUT4:I0->O            1   0.551   1.140  q<5>2 (q<5>1)
+     LUT3:I0->O            1   0.551   1.140  q<5>171 (q<5>171)
+     LUT4:I0->O            5   0.551   1.260  q<5>182 (q_5_OBUF)
+     LUT3:I0->O            4   0.551   1.256  n1_mux0002<0>1 (n1_mux0002<0>)
+     LUT4:I0->O            1   0.551   0.869  q<4>2 (q<4>1)
+     LUT3:I2->O            1   0.551   1.140  q<4>188_SW0 (N86)
+     LUT4:I0->O            5   0.551   1.260  q<4>188 (q_4_OBUF)
+     LUT3:I0->O            4   0.551   1.256  n1_mux0003<0>1 (n1_mux0003<0>)
+     LUT4:I0->O            1   0.551   0.869  q<3>2 (q<3>1)
+     LUT3:I2->O            1   0.551   1.140  q<3>188_SW0 (N88)
+     LUT4:I0->O            5   0.551   1.260  q<3>188 (q_3_OBUF)
+     LUT3:I0->O            4   0.551   1.256  n10_mux0000<0>1 (n10_mux0000<0>)
+     LUT4:I0->O            1   0.551   0.869  q<2>2 (q<2>1)
+     LUT3:I2->O            1   0.551   1.140  q<2>188_SW0 (N90)
+     LUT4:I0->O            5   0.551   1.260  q<2>188 (q_2_OBUF)
+     LUT3:I0->O            4   0.551   1.256  n10_mux0001<0>1 (n10_mux0001<0>)
+     LUT4:I0->O            1   0.551   0.869  q<1>2 (q<1>1)
+     LUT3:I2->O            1   0.551   1.140  q<1>188_SW0 (N92)
+     LUT4:I0->O            5   0.551   1.260  q<1>188 (q_1_OBUF)
+     LUT3:I0->O            4   0.551   1.256  n10_mux0002<0>1 (n10_mux0002<0>)
+     LUT4:I0->O            1   0.551   0.869  q<0>2 (q<0>1)
+     LUT3:I2->O            1   0.551   1.140  q<0>188_SW0 (N94)
+     LUT4:I0->O            5   0.551   1.260  q<0>188 (q_0_OBUF)
+     LUT3:I0->O            1   0.551   0.801  n10_mux0003<0>1 (r_0_OBUF)
+     OBUF:I->O                 5.644          r_0_OBUF (r<0>)
+    ----------------------------------------
+    Total                     53.665ns (21.342ns logic, 32.323ns route)
+                                       (39.8% logic, 60.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.45 secs
+ 
+--> 
+
+Total memory usage is 4517160 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

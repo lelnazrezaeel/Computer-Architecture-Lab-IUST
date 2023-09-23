@@ -1,0 +1,2 @@
+vhdl isim_temp "Flip_Flop.vhd"
+vhdl isim_temp "Simulate.vhd"

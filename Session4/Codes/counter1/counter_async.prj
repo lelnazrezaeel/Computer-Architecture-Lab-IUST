@@ -1,0 +1,2 @@
+vhdl work "T_FF.vhd"
+vhdl work "counter_async.vhd"

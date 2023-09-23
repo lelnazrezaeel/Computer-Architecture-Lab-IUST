@@ -1,0 +1,3 @@
+vhdl work "XOR_GATE.vhd"
+vhdl work "AND_GATE.vhd"
+vhdl work "HA2_GATE.vhd"

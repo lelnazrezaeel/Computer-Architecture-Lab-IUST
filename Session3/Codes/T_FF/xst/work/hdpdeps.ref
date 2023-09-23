@@ -1,0 +1,7 @@
+V3 4
+FL C:/Users/Arshia/Desktop/AZ/T_FF/T_FF.vhd 2022/04/03.19:23:31 P.20131013
+FL "C:/Users/Lenovo/Desktop/New folder/T_FF/T_FF.vhd" 2022/04/03.19:33:14 P.20131013
+EN work/T_FF 1649010241 FL "C:/Users/Lenovo/Desktop/New folder/T_FF/T_FF.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/T_FF/Behavioral 1649010242 \
+      FL "C:/Users/Lenovo/Desktop/New folder/T_FF/T_FF.vhd" EN work/T_FF 1649010241

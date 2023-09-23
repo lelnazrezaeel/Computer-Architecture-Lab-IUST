@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/iust stuff/4002/CALab/2/Seven_Seg/Seven_Seg_isim_beh.exe" -prj "D:/iust stuff/4002/CALab/2/Seven_Seg/Seven_Seg_beh.prj" "work.Seven_Seg" 

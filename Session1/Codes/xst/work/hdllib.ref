@@ -1,0 +1,12 @@
+AR xor_gate behavioral "E:/University/Term6/CA Lab/Lab01/Lab011/XOR_GATE.vhd" sub00/vhpl05 1646200807
+AR ha_gate behavioral "E:/University/Term6/CA Lab/Lab01/Lab011/HA_GATE.vhd" sub00/vhpl07 1646200811
+AR and_gate behavioral "E:/University/Term6/CA Lab/Lab01/Lab011/AND_GATE.vhd" sub00/vhpl02 1646200809
+EN ha2_gate NULL "E:/University/Term6/CA Lab/Lab01/Lab011/HA2_GATE.vhd" sub00/vhpl08 1646199270
+AR or_gate behavioral "E:/University/Term6/CA Lab/Lab01/Lab011/OR_GATE.vhd" sub00/vhpl03 1646201103
+AR ha2_gate behavioral "E:/University/Term6/CA Lab/Lab01/Lab011/HA2_GATE.vhd" sub00/vhpl09 1646199271
+EN or_gate NULL "E:/University/Term6/CA Lab/Lab01/Lab011/OR_GATE.vhd" sub00/vhpl00 1646201102
+EN ha_gate NULL "E:/University/Term6/CA Lab/Lab01/Lab011/HA_GATE.vhd" sub00/vhpl06 1646200810
+AR fa_gate behavioral "E:/University/Term6/CA Lab/Lab01/Lab011/FA_GATE.vhd" sub00/vhpl11 1646200815
+EN fa_gate NULL "E:/University/Term6/CA Lab/Lab01/Lab011/FA_GATE.vhd" sub00/vhpl10 1646200814
+EN xor_gate NULL "E:/University/Term6/CA Lab/Lab01/Lab011/XOR_GATE.vhd" sub00/vhpl04 1646200806
+EN and_gate NULL "E:/University/Term6/CA Lab/Lab01/Lab011/AND_GATE.vhd" sub00/vhpl01 1646200808

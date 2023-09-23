@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Arshia/Desktop/AZ/SISO/Simulate_isim_beh.exe" -prj "C:/Users/Arshia/Desktop/AZ/SISO/Simulate_beh.prj" "work.Simulate" 

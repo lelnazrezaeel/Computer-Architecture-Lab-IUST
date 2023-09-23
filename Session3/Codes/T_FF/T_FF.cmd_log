@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "C:/Users/Arshia/Desktop/AZ/T_FF/T_FF.xst" -ofn "C:/Users/Arshia/Desktop/AZ/T_FF/T_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 T_FF.ngc T_FF.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o T_FF_map.ncd T_FF.ngd T_FF.pcf 
+par -w -intstyle ise -ol high -t 1 T_FF_map.ncd T_FF.ncd T_FF.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml T_FF.twx T_FF.ncd -o T_FF.twr T_FF.pcf 
+xst -intstyle ise -ifn "C:/Users/Arshia/Desktop/AZ/T_FF/T_FF.xst" -ofn "C:/Users/Arshia/Desktop/AZ/T_FF/T_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 T_FF.ngc T_FF.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o T_FF_map.ncd T_FF.ngd T_FF.pcf 
+par -w -intstyle ise -ol high -t 1 T_FF_map.ncd T_FF.ncd T_FF.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml T_FF.twx T_FF.ncd -o T_FF.twr T_FF.pcf 
+xst -intstyle ise -ifn "C:/Users/Arshia/Desktop/AZ/T_FF/T_FF.xst" -ofn "C:/Users/Arshia/Desktop/AZ/T_FF/T_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 T_FF.ngc T_FF.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o T_FF_map.ncd T_FF.ngd T_FF.pcf 
+par -w -intstyle ise -ol high -t 1 T_FF_map.ncd T_FF.ncd T_FF.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml T_FF.twx T_FF.ncd -o T_FF.twr T_FF.pcf 
+xst -intstyle ise -ifn "C:/Users/Arshia/Desktop/AZ/T_FF/T_FF.xst" -ofn "C:/Users/Arshia/Desktop/AZ/T_FF/T_FF.syr" 
+xst -intstyle ise -ifn "C:/Users/Arshia/Desktop/AZ/T_FF/T_FF.xst" -ofn "C:/Users/Arshia/Desktop/AZ/T_FF/T_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 T_FF.ngc T_FF.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o T_FF_map.ncd T_FF.ngd T_FF.pcf 
+par -w -intstyle ise -ol high -t 1 T_FF_map.ncd T_FF.ncd T_FF.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml T_FF.twx T_FF.ncd -o T_FF.twr T_FF.pcf 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/New folder/T_FF/T_FF.xst" -ofn "C:/Users/Lenovo/Desktop/New folder/T_FF/T_FF.syr" 

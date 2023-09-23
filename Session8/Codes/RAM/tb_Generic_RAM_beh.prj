@@ -1,0 +1,2 @@
+vhdl work "Generic_ram.vhd"
+vhdl work "tb_generic_ram.vhd"

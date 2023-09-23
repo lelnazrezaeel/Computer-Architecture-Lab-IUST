@@ -1,0 +1,16 @@
+ISim log file
+Running: D:\iust stuff\4002\CALab\2\decoder_2_4\decoder_2_4_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/iust stuff/4002/CALab/2/decoder_2_4/decoder_2_4_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /decoder_2_4/a 01 -radix bin
+# run all
+# isim force add /decoder_2_4/a 11 -radix bin
+# run all
+# isim force add /decoder_2_4/a 00 -radix bin
+# run all

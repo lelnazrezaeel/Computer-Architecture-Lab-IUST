@@ -1,0 +1,7 @@
+V3 3
+FL "D:/iust stuff/4002/CALab/5/PISO/PISO.vhd" 2022/04/20.01:35:04 P.20131013
+EN work/parallel_in_serial_out 1650403235 \
+      FL "D:/iust stuff/4002/CALab/5/PISO/PISO.vhd" PB ieee/std_logic_1164 1381692176
+AR work/parallel_in_serial_out/piso_arc 1650403236 \
+      FL "D:/iust stuff/4002/CALab/5/PISO/PISO.vhd" \
+      EN work/parallel_in_serial_out 1650403235

@@ -1,0 +1,5 @@
+vhdl work "XOR_GATE.vhd"
+vhdl work "AND_GATE.vhd"
+vhdl work "OR_GATE.vhd"
+vhdl work "HA_GATE.vhd"
+vhdl work "FA_GATE.vhd"

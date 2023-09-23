@@ -1,0 +1,10 @@
+Command line:
+   counter_decreasing_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  13605
+
+Wed Apr 13 11:29:10 2022
+
+
+ Elaboration Time: 1.03125 sec

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Arshia/Downloads/Telegram Desktop/ROM/tb_rom_isim_beh.exe" -prj "C:/Users/Arshia/Downloads/Telegram Desktop/ROM/tb_rom_beh.prj" "work.tb_rom" 

@@ -1,0 +1,3 @@
+vhdl isim_temp "T_FF.vhd"
+vhdl isim_temp "nand1.vhd"
+vhdl isim_temp "counter_async.vhd"

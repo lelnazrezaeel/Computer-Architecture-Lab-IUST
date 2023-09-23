@@ -1,0 +1,4 @@
+vhdl work "T_FF.vhd"
+vhdl work "nand1.vhd"
+vhdl work "counter_test.vhd"
+vhdl work "counter_async.vhd"

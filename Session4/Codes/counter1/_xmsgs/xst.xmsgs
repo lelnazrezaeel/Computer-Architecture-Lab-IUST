@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"D:\iust stuff\4002\CALab\4\counter_async\counter_async.vhd" Line 54: Actual for formal port <arg fmt="%s" index="1">clk</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"D:\iust stuff\4002\CALab\4\counter_async\counter_async.vhd" Line 55: Actual for formal port <arg fmt="%s" index="1">clk</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"D:\iust stuff\4002\CALab\4\counter_async\counter_async.vhd" Line 56: Actual for formal port <arg fmt="%s" index="1">clk</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"D:\iust stuff\4002\CALab\4\counter_async\counter_async.vhd" Line 57: Actual for formal port <arg fmt="%s" index="1">clk</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="info" file="Xst" num="2774" delta="new" >HDL ADVISOR - <arg fmt="%s" index="1">KEEP</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">Q3</arg> may hinder XST clustering optimizations.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

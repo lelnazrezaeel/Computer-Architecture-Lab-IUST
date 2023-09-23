@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Arshia\Desktop\AZ\MUX\MUX_GATE.ncd
+OUTFILE=C:\Users\Arshia\Desktop\AZ\MUX\MUX_GATE.bit
+FAMILY=Spartan3
+PART=xc3s400-4pq208
+WORKINGDIR=C:\Users\Arshia\Desktop\AZ\MUX
+LICENSE=WebPack
+USER_INFO=__0_0_0

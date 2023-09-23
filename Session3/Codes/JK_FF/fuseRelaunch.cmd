@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Lenovo/Desktop/New folder/JK_FF/Simulate_isim_beh.exe" -prj "C:/Users/Lenovo/Desktop/New folder/JK_FF/Simulate_beh.prj" "work.Simulate" 

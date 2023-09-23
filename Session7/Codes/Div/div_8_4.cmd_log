@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/iust stuff/4002/CALab/8_9/Div/div_8_4.xst" -ofn "D:/iust stuff/4002/CALab/8_9/Div/div_8_4.syr" 
+xst -intstyle ise -ifn "D:/iust stuff/4002/CALab/8_9/Div/div_8_4.xst" -ofn "D:/iust stuff/4002/CALab/8_9/Div/div_8_4.syr" 
+xst -intstyle ise -ifn "D:/iust stuff/4002/CALab/8_9/Div/div_8_4.xst" -ofn "D:/iust stuff/4002/CALab/8_9/Div/div_8_4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 "div_8_4.ngc" div_8_4.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o div_8_4_map.ncd div_8_4.ngd div_8_4.pcf 
+par -w -intstyle ise -ol high -t 1 div_8_4_map.ncd div_8_4.ncd div_8_4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml div_8_4.twx div_8_4.ncd -o div_8_4.twr div_8_4.pcf 
+xst -intstyle ise -ifn "D:/iust stuff/4002/CALab/8_9/Div/div_8_4.xst" -ofn "D:/iust stuff/4002/CALab/8_9/Div/div_8_4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 "div_8_4.ngc" div_8_4.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o div_8_4_map.ncd div_8_4.ngd div_8_4.pcf 
+par -w -intstyle ise -ol high -t 1 div_8_4_map.ncd div_8_4.ncd div_8_4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml div_8_4.twx div_8_4.ncd -o div_8_4.twr div_8_4.pcf 

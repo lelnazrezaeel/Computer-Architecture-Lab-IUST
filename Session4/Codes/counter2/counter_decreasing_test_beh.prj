@@ -1,0 +1,3 @@
+vhdl work "T_FF.vhd"
+vhdl work "counter_asyc_decreasing.vhd"
+vhdl work "counter_decreasing_test.vhd"

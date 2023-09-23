@@ -1,0 +1,21 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Arshia/Downloads/Telegram Desktop/ROM/tb_rom_isim_beh.exe -prj C:/Users/Arshia/Downloads/Telegram Desktop/ROM/tb_rom_beh.prj work.tb_rom 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Arshia/Downloads/Telegram Desktop/ROM/ROM.vhd" into library work
+Parsing VHDL file "C:/Users/Arshia/Downloads/Telegram Desktop/ROM/tb_rom.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity ROM [rom_default]
+Compiling architecture behavior of entity tb_rom
+Time Resolution for simulation is 1ps.
+Compiled 8 VHDL Units
+Built simulation executable C:/Users/Arshia/Downloads/Telegram Desktop/ROM/tb_rom_isim_beh.exe
+Fuse Memory Usage: 37624 KB
+Fuse CPU Usage: 437 ms

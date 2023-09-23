@@ -1,0 +1,44 @@
+xst -intstyle ise -ifn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.xst" -ofn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 JK_FF.ngc JK_FF.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o JK_FF_map.ncd JK_FF.ngd JK_FF.pcf 
+xst -intstyle ise -ifn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.xst" -ofn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 JK_FF.ngc JK_FF.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o JK_FF_map.ncd JK_FF.ngd JK_FF.pcf 
+par -w -intstyle ise -ol high -t 1 JK_FF_map.ncd JK_FF.ncd JK_FF.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml JK_FF.twx JK_FF.ncd -o JK_FF.twr JK_FF.pcf 
+xst -intstyle ise -ifn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.xst" -ofn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 JK_FF.ngc JK_FF.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o JK_FF_map.ncd JK_FF.ngd JK_FF.pcf 
+par -w -intstyle ise -ol high -t 1 JK_FF_map.ncd JK_FF.ncd JK_FF.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml JK_FF.twx JK_FF.ncd -o JK_FF.twr JK_FF.pcf 
+xst -intstyle ise -ifn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.xst" -ofn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 JK_FF.ngc JK_FF.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o JK_FF_map.ncd JK_FF.ngd JK_FF.pcf 
+par -w -intstyle ise -ol high -t 1 JK_FF_map.ncd JK_FF.ncd JK_FF.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml JK_FF.twx JK_FF.ncd -o JK_FF.twr JK_FF.pcf 
+xst -intstyle ise -ifn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.xst" -ofn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 JK_FF.ngc JK_FF.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o JK_FF_map.ncd JK_FF.ngd JK_FF.pcf 
+par -w -intstyle ise -ol high -t 1 JK_FF_map.ncd JK_FF.ncd JK_FF.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml JK_FF.twx JK_FF.ncd -o JK_FF.twr JK_FF.pcf 
+xst -intstyle ise -ifn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.xst" -ofn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 JK_FF.ngc JK_FF.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o JK_FF_map.ncd JK_FF.ngd JK_FF.pcf 
+par -w -intstyle ise -ol high -t 1 JK_FF_map.ncd JK_FF.ncd JK_FF.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml JK_FF.twx JK_FF.ncd -o JK_FF.twr JK_FF.pcf 
+xst -intstyle ise -ifn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.xst" -ofn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 JK_FF.ngc JK_FF.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o JK_FF_map.ncd JK_FF.ngd JK_FF.pcf 
+par -w -intstyle ise -ol high -t 1 JK_FF_map.ncd JK_FF.ncd JK_FF.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml JK_FF.twx JK_FF.ncd -o JK_FF.twr JK_FF.pcf 
+xst -intstyle ise -ifn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.xst" -ofn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 JK_FF.ngc JK_FF.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o JK_FF_map.ncd JK_FF.ngd JK_FF.pcf 
+par -w -intstyle ise -ol high -t 1 JK_FF_map.ncd JK_FF.ncd JK_FF.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml JK_FF.twx JK_FF.ncd -o JK_FF.twr JK_FF.pcf 
+xst -intstyle ise -ifn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.xst" -ofn "C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 JK_FF.ngc JK_FF.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o JK_FF_map.ncd JK_FF.ngd JK_FF.pcf 
+par -w -intstyle ise -ol high -t 1 JK_FF_map.ncd JK_FF.ncd JK_FF.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml JK_FF.twx JK_FF.ncd -o JK_FF.twr JK_FF.pcf 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/New folder/JK_FF/JK_FF.xst" -ofn "C:/Users/Lenovo/Desktop/New folder/JK_FF/JK_FF.syr" 

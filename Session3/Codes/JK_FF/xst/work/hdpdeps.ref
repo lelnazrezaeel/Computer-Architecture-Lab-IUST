@@ -1,0 +1,7 @@
+V3 4
+FL C:/Users/Arshia/Desktop/AZ/JK_FF/JK_FF.vhd 2022/04/03.19:07:15 P.20131013
+FL "C:/Users/Lenovo/Desktop/New folder/JK_FF/JK_FF.vhd" 2022/04/03.19:07:15 P.20131013
+EN work/JK_FF 1649009591 FL "C:/Users/Lenovo/Desktop/New folder/JK_FF/JK_FF.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/JK_FF/Behavioral 1649009592 \
+      FL "C:/Users/Lenovo/Desktop/New folder/JK_FF/JK_FF.vhd" EN work/JK_FF 1649009591

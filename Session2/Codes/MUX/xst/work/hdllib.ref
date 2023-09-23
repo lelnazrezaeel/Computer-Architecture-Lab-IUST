@@ -1,0 +1,8 @@
+EN mux_gate NULL C:/Users/Arshia/Desktop/AZ/MUX/MUX_GATE.vhd sub00/vhpl06 1646748317
+AR not_gate behavioral C:/Users/Arshia/Desktop/AZ/MUX/Not_Gate.vhd sub00/vhpl01 1646748312
+EN not_gate NULL C:/Users/Arshia/Desktop/AZ/MUX/Not_Gate.vhd sub00/vhpl00 1646748311
+AR and_gate behavioral C:/Users/Arshia/Desktop/AZ/MUX/And_Gate.vhd sub00/vhpl03 1646748314
+AR mux_gate behavioral C:/Users/Arshia/Desktop/AZ/MUX/MUX_GATE.vhd sub00/vhpl07 1646748318
+AR or_gate behavioral C:/Users/Arshia/Desktop/AZ/MUX/Or_Gate.vhd sub00/vhpl05 1646748316
+EN or_gate NULL C:/Users/Arshia/Desktop/AZ/MUX/Or_Gate.vhd sub00/vhpl04 1646748315
+EN and_gate NULL C:/Users/Arshia/Desktop/AZ/MUX/And_Gate.vhd sub00/vhpl02 1646748313

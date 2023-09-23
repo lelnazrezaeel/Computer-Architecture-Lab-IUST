@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/Arshia/Desktop/AZ/Encoder_4_2/Encoder_4_2.xst" -ofn "C:/Users/Arshia/Desktop/AZ/Encoder_4_2/Encoder_4_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 Encoder_4_2.ngc Encoder_4_2.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Encoder_4_2_map.ncd Encoder_4_2.ngd Encoder_4_2.pcf 
+par -w -intstyle ise -ol high -t 1 Encoder_4_2_map.ncd Encoder_4_2.ncd Encoder_4_2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Encoder_4_2.twx Encoder_4_2.ncd -o Encoder_4_2.twr Encoder_4_2.pcf 
+xst -intstyle ise -ifn "D:/iust stuff/4002/CALab/2/Encoder_4_2/Encoder_4_2.xst" -ofn "D:/iust stuff/4002/CALab/2/Encoder_4_2/Encoder_4_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 "Encoder_4_2.ngc" Encoder_4_2.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Encoder_4_2_map.ncd Encoder_4_2.ngd Encoder_4_2.pcf 
+par -w -intstyle ise -ol high -t 1 Encoder_4_2_map.ncd Encoder_4_2.ncd Encoder_4_2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Encoder_4_2.twx Encoder_4_2.ncd -o Encoder_4_2.twr Encoder_4_2.pcf 
