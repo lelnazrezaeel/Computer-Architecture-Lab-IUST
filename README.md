@@ -1,7 +1,7 @@
 # Computer-Architecture-Lab-IUST
 My solutions to IUST's Computer Architecture Laboratory, Fall 2022, Dr. Mohabbati.
 
-## <img width="64" height="64" src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/41b883/external-idea-advertising-kiranshastry-lineal-kiranshastry-3.png" alt="introduction"/> Introduction
+## <img width="20" height="20" src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/41b883/external-idea-advertising-kiranshastry-lineal-kiranshastry-3.png" alt="introduction"/> Introduction
 - Description: An Introduction PDF file providing an overview of the Computer Architecture Lab.
 - [Link to Introduction.pdf](https://github.com/lelnazrezaeel/Computer-Architecture-Lab-IUST/blob/main/Introduction.pdf)
 
